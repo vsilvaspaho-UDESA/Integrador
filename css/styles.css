@@ -2,8 +2,30 @@
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
-}*{
-    padding: 0%;
-    margin: 0%;
-    box-sizing: border-box;
+}
+body{
+    background-image: url(../img/fondo.jpg.png);
+    background-attachment: fixed;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+}
+.logo-1{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.barra{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+}
+.ver{
+    background-color: rgb(50, 50, 50);
+    color: white;
+    padding: 8px 50px;
 }
