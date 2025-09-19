@@ -53,3 +53,15 @@ ul li{
     background-color: darkblue;
     color: white;
 }
+
+.texto-categorias{
+    font-size: 20px;
+    color: darkslategrey;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.categoriash3{
+    text-decoration: underline;
+    font-weight: bold;
+    color: white;
+}
