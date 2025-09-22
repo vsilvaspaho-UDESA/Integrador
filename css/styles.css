@@ -65,3 +65,44 @@ ul li{
     font-weight: bold;
     color: white;
 }
+
+.formulario{
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.form-group{
+  margin-bottom: 15px;
+}
+label{
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+
+.form-buttons{
+  display: flex;
+  justify-content: space-between;
+}
+
+button{
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background: #333;
+  color: white;
+  font-size: 14px;
+}
+
+.reset{
+  background: #999;
+}
+.cuenta{
+    margin-top: 15px; 
+    text-align:center; 
+    font-size: 14px;
+}
