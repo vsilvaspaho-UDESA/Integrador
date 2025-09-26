@@ -30,7 +30,62 @@
     </header>
 
     <main>
-        </main>
+
+        <section class="producto-detalle">
+            <div class="producto-img">
+                <img src="./img/Remera Argentina Adidas.avif" alt="Camiseta Argentina">
+            </div>
+            <div class="producto-info">
+                <h1>Camiseta Aniversario 50 Años Selección Argentina</h1>
+                <p class="marca"><strong>Marca:</strong> Adidas</p>
+                <p class="stock">✅ En stock (12 disponibles)</p>
+                <p class="precio-detalle">$ 104.999</p>
+                <p class="descripcion">
+                    Camiseta edición especial en honor a los 50 años de la Selección Argentina. 
+                    Confeccionada en tela de alta calidad con tecnología Aeroready que absorbe la humedad.
+                </p>
+                <p class="tags"><strong>Tags:</strong> Fútbol, Argentina, Adidas</p>
+                <br>
+                <button class="btn-comprar">COMPRAR</button>
+            </div>
+        </section>
+
+        <section class="reviews">
+    <h2>Reseñas</h2>
+    <div class="review-list">
+        <div class="review">
+            <p><strong>Juan Pérez</strong> <span class="fecha">15/09/2025</span></p>
+            <p class="rating">Rating: ⭐⭐⭐⭐⭐</p>
+            <p>Excelente calidad, la tela es muy cómoda.</p>
+        </div>
+        <div class="review">
+            <p><strong>Lucía Fernández</strong> <span class="fecha">10/09/2025</span></p>
+            <p class="rating">Rating: ⭐⭐⭐⭐</p>
+            <p>Llegó rápido y me encantó el diseño.</p>
+        </div>
+    </div>
+
+    <form class="add-review">
+        <label for="nombre">Tu nombre:</label>
+        <input type="text" id="nombre" required>
+        
+        <label for="comentario">Tu reseña:</label>
+        <textarea id="comentario" rows="4" required></textarea>
+        
+        <label for="rating">Tu calificación:</label>
+        <select id="rating" required>
+            <option value="5">⭐⭐⭐⭐⭐ (5)</option>
+            <option value="4">⭐⭐⭐⭐ (4)</option>
+            <option value="3">⭐⭐⭐ (3)</option>
+            <option value="2">⭐⭐ (2)</option>
+            <option value="1">⭐ (1)</option>
+        </select>
+
+        <button type="submit">Enviar reseña</button>
+    </form>
+</section>
+
+    </main>
 
         <footer>
         <p>Página Web hecha por <strong>Valentino Silva Spaho</strong> y <strong>Gonzalo Suaya</strong></p>
