@@ -174,3 +174,45 @@ button{
     text-align:center;
     padding: 8px 0px;
 }
+
+.titulo-seccion{
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  color: white;
+  font-size: 28px;
+  text-decoration: underline;
+}
+
+.container {
+  display: flex;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.info-extra {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.precio {
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(30, 30, 30);
+}
+
+footer{
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 40px;
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+  border-top: 2px solid rgb(0, 123, 255);
+}
+footer strong{
+  color: rgb(0, 123, 255);
+}
