@@ -139,6 +139,10 @@ button{
     flex-wrap: wrap;
     
 }
+.contenedor-category2{
+    display: flex;
+    flex-wrap: wrap;
+}
 
 .cajas{
     padding: 30px;
@@ -148,6 +152,15 @@ button{
     border-radius: 20px;
  background-color: rgba(255, 255, 255, 0.962);
 
+
+}
+.cajas2{
+     padding: 30px;
+    width: 33.3%;
+    margin-top: 60px;
+    border: 1px solid rgb(220, 220, 220);
+    border-radius: 20px;
+ background-color: rgba(255, 255, 255, 0.962);
 }
 .imgcategory{
     width: 100%;
@@ -338,14 +351,39 @@ footer strong{
   color: gold;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 768px) {
   .cajas {
     width: 50%;
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 426px) {
   .cajas {
     width: 100%;
+
   }
+  nav{
+    display: flex;
+    flex-wrap: wrap;
+  }
+.cajas2{
+    flex-wrap: wrap;
+    width:100% ;
+}
+
+
+.container{
+    flex-direction: column;
+
+}
+.lateral{
+    width: 100%;
+    margin-left: 0px;
+}
+.barra-categorias{
+width: 100%;
+}
+.categoriash3{
+    margin-left: 0px;
+}
 }
